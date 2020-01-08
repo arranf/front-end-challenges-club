@@ -1,0 +1,47 @@
+:root {
+  --color-primary: #4c2982;
+  --color-secondary: #f9d170;
+  --color-bg: #f9f7f3;
+  --color-text: #252525;
+  --color-light: #f3f3f3;
+  --color-success: #067973;
+  --color-success-bg: #f5fffe;
+  --color-error: #b71540;
+  --color-error-bg: #fdeff3;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("webfont/Inter-Black.woff2") format("woff2"),
+       url("webfont/Inter-Black.woff") format("woff");
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+.floating-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 300px;
+  height: 300px;
+  margin-left: -150px;
+  /* -1/2 width */
+  margin-top: -150px;
+  /* -1/2 height */
+}
+
+
+.title, label {
+    font-family: 'Inter', 'serif';
+    color: var(--color-primary);
+}
+
+label {
+    text-transform: uppercase;
+
+}
