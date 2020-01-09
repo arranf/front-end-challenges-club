@@ -10,6 +10,7 @@
     <meta name="author" content="Arran France">
     <!-- <link href="webfont/Inter-Black.woff" rel="stylesheet">
     <link href="webfont/Inter-Black.woff2" rel="stylesheet"> -->
+    <link rel="stylesheet" href="webfont/inter.css">
     <link rel="stylesheet" href="styles/styles.css">
 
 </head>
@@ -19,14 +20,17 @@
     <div class="floating-container">
         <h1 class="title">Sign up for the latest updates</h1>
         <label for="email">Email address</label>
-        <input type="email" id="email" name="email">
-        <button>
-
-            <img src="svg/arrow-right.svg" alt="Arrow Facing Right">
-        </button>
+        <div class="input-group">
+            <input type="email" id="email" name="email">
+            <button class="primary">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="M11.293 5.707L16.586 11H5a1 1 0 000 2h11.586l-5.293 5.293a.999.999 0 101.414 1.414l7-7a1.006 1.006 0 000-1.414l-7-7a.999.999 0 10-1.414 1.414z" />
+                </svg>
+            </button>
+        </div>
     </div>
-
-    <script src="js/scripts.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

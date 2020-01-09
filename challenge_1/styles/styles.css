@@ -13,14 +13,17 @@
 @font-face {
   font-family: 'Inter';
   font-style:  normal;
-  font-weight: 900;
   font-display: swap;
-  src: url("webfont/Inter-Black.woff2") format("woff2"),
-       url("webfont/Inter-Black.woff") format("woff");
+  src: url("../webfont/Inter-Black.woff2") format("woff2"),
+       url("../webfont/Inter-Black.woff") format("woff");
 }
 
 body {
-    background-color: #f3f3f3;
+  background-color: var(--color-light);
+}
+
+.primary {
+  color: var(--color-primary)
 }
 
 .floating-container {
@@ -42,6 +45,39 @@ body {
 }
 
 label {
-    text-transform: uppercase;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 400;
+}
 
+.input-group {
+  height: 2rem;
+  max-width: 100%;
+  box-shadow: -2px 2px 7px 0px rgba(0,0,0,0.25);
+  display: flex;
+}
+
+input {
+  border: none;
+  width: 15rem;
+}
+
+input:focus, input:active {
+  outline: none !important;
+  border: var(--color-primary) 1px solid;
+}
+
+button {
+  width: 2.5rem;
+  height: 100%;
+  background-color: var(--color-secondary);
+  border: none;
+}
+
+button:focus {
+  border: var(--color-primary);
+}
+
+svg {
+  height: 2rem;
 }

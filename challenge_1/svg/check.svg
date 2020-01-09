@@ -1,3 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="check">
   <path d="M19.293 5.293L9 15.586l-4.293-4.293a.999.999 0 10-1.414 1.414l5 5a.999.999 0 001.414 0l11-11a.999.999 0 10-1.414-1.414z"/>
+</svg>
+
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+     <symbol id="icon-book" width="100%" height="100%" viewBox="0 0 48 48">
+         <title>Book</title>
+         <path d="M0 42a4 4 0 0 0 4 4h36a4 4 0 0 0 4-4v-6h1.8c1.22 0 2.2-.98 2.2-2.2V23.2c0-1.22-.98-2.2-2.2-2.2H44v-6a4 4 0 0 0-4-4H7c-1.1 0-2-.9-2-2s.9-2 2-2h29.5a2.5 2.5 0 0 0 0-5H4a4 4 0 0 0-4 4v36zm34-13.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1-5 0z"/>
+     </symbol>
+     <symbol id="icon-locationPin" width="100%" height="100%" viewBox="0 0 20 20">
+         <title>Location Pin</title>
+         <path d="M10 2.01C7.238 2.01 5 4.237 5 7c0 4.773 5 11 5 11s5-6.228 5-11c0-2.76-2.238-4.99-5-4.99zm0 7.75a2.7 2.7 0 1 1 0-5.4 2.7 2.7 0 0 1 0 5.4z"/>
+     </symbol>
+     <symbol id="icon-mail" width="100%" height="100%" viewBox="0 0 20 20">
+         <title>Mail</title>
+         <path d="M1.574 5.286l7.5 4.03c.252.135.578.198.906.198.328 0 .654-.064.906-.2l7.5-4.028c.49-.263.95-1.286.054-1.286H1.52c-.896 0-.434 1.023.054 1.286zm17.04 2.203c-.556.288-7.388 3.848-7.728 4.026s-.578.2-.906.2-.566-.022-.906-.2-7.133-3.74-7.688-4.028c-.39-.204-.386.035-.386.22V15c0 .42.566 1 1 1h16c.434 0 1-.58 1-1V7.708c0-.184.004-.423-.387-.22z"/>
+     </symbol>
+ </defs>
 </svg>
